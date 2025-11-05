@@ -25,7 +25,7 @@ html[b-ijxvez97eu], body[b-ijxvez97eu] {
     }
 
 .contacto-section[b-ijxvez97eu] {
-    background: url('/imgs/fondoPol.jpg') center/cover no-repeat;
+    background: url('https://erikurena.github.io/DifusionPersonas/imgs/fondoPol.jpg') center/cover no-repeat;
     height: 100vh;
     position: relative;
     display: flex;
