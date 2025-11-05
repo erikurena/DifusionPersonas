@@ -1,0 +1,90 @@
+/* /Pages/Home.razor.rz.scp.css */
+html[b-ijxvez97eu], body[b-ijxvez97eu] {
+    scroll-behavior: smooth;
+}
+
+.hero-section[b-ijxvez97eu] {
+    background: url('/imgs/policiabanner.jpg') center/cover no-repeat;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .hero-section[b-ijxvez97eu]::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.55);
+    }
+
+    .hero-section .container[b-ijxvez97eu] {
+        position: relative;
+        z-index: 2;
+    }
+
+.contacto-section[b-ijxvez97eu] {
+    background: url('/imgs/fondoPol.jpg') center/cover no-repeat;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .contacto-section[b-ijxvez97eu]::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.55);
+    }
+
+    .contacto-section .container[b-ijxvez97eu] {
+        position: relative;
+        z-index: 2;
+    }
+.card img[b-ijxvez97eu] {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* ==== ANIMACIONES ==== */
+.fade-in[b-ijxvez97eu] {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-in-out;
+}
+
+    .fade-in.visible[b-ijxvez97eu] {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+/* ==== RESPONSIVE ==== */
+@media (max-width: 768px) {
+    .hero-section[b-ijxvez97eu] {
+        height: 80vh;
+        text-align: center;
+    }
+
+    .input-group[b-ijxvez97eu] {
+        width: 100% !important;
+    }
+}
+
+.btn:hover[b-ijxvez97eu] {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.card-events[b-ijxvez97eu] {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+    .card-events:hover[b-ijxvez97eu] {
+        transform: scale(1.03);
+    }
