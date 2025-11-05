@@ -4,7 +4,7 @@ html[b-ijxvez97eu], body[b-ijxvez97eu] {
 }
 
 .hero-section[b-ijxvez97eu] {
-    background: url('/imgs/policiabanner.jpg') center/cover no-repeat;
+    background: url('https://erikurena.github.io/DifusionPersonas/imgs/policiabanner.jpg') center/cover no-repeat;
     height: 100vh;
     position: relative;
     display: flex;
